@@ -39,7 +39,6 @@ export function removeDeck(title) {
 
 export function getDeck(title) {
   return AsyncStorage.getItem(title).then(results => {
-    debugger
     return {
       ...JSON.parse(results)
     }

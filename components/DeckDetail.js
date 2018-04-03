@@ -17,7 +17,7 @@ import { getDeckAsync } from "../actions"
 
 class DeckDetail extends Component {
   componentDidMount() {
-    debugger
+
     this.props.getDeck(this.props.entryId)
   }
   goAddCard = () => {
@@ -127,7 +127,6 @@ const styles = StyleSheet.create({
 
 function mapStateToProps(state, { navigation }) {
   const { entryId } = navigation.state.params
-  debugger
   return {
     entryId,
     deck: state[entryId]

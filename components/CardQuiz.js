@@ -39,6 +39,7 @@ class CardQuiz extends Component {
     )
   }
   goHome = () => {
+    //go to the home of the current deck
     this.props.navigation.dispatch(
       NavigationActions.reset({
         index: 1,
@@ -55,6 +56,7 @@ class CardQuiz extends Component {
   }
 
   goFirst = () => {
+    //go to the first question
     this.props.navigation.dispatch(
       NavigationActions.reset({
         index: 2,

@@ -21,6 +21,7 @@ class CardAdd extends Component {
     this.state = { name: "", answer: "" }
   }
   handleSubmit = () => {
+    //validate that there is a question and answer
     if (this.state.name !== "" && this.state.answer !== "") {
       this.props.addCard(
         this.state.name,
