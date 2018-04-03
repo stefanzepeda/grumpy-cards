@@ -14,7 +14,6 @@ import {
 } from "react-native"
 import { connect } from "react-redux"
 import { white, purple } from "../utils/colors"
-import DeckListEntry from "./DeckListEntry"
 import { addDeck, addDeckAsync } from "../actions"
 import { NavigationActions } from "react-navigation"
 

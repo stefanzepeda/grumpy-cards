@@ -11,7 +11,6 @@ import {
   Image
 } from "react-native"
 import { connect } from "react-redux"
-import DeckListEntry from "./DeckListEntry"
 import { white, purple, lightBlue } from "../utils/colors"
 import { Ionicons, Entypo } from "@expo/vector-icons"
 import { removeDeckAsync, fetchDecks } from "../actions"

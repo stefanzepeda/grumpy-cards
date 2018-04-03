@@ -11,7 +11,6 @@ import {
 import { clearLocalNotifications, setLocalNotification } from "../utils/helper"
 import { connect } from "react-redux"
 import { white, purple } from "../utils/colors"
-import DeckListEntry from "./DeckListEntry"
 import TextButton from "./TextButton"
 import { NavigationActions } from "react-navigation"
 import { getDeckAsync } from "../actions"
